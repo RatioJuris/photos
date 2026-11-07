@@ -19,7 +19,7 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "io.github.ratiojuris.photos"
+        applicationId = "com.ratiojuris.github.photos"
         // Android 12. The product requirement; do not lower (see the deviceTest flavor below).
         minSdk = 31
         targetSdk = 36

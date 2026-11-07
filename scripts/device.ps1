@@ -73,5 +73,5 @@ function Texts {
 
 # True only when Photos is the focused window (guards taps / typing so input never reaches other apps).
 function In-Photos {
-    "$(adb shell dumpsys window | Select-String 'mCurrentFocus' | Select-Object -First 1)" -match 'io\.github\.ratiojuris\.photos'
+    "$(adb shell dumpsys window | Select-String 'mCurrentFocus' | Select-Object -First 1)" -match 'com\.ratiojuris\.github\.photos|io\.github\.ratiojuris\.photos'
 }
