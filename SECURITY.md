@@ -14,7 +14,7 @@ Photos protects people's private photographs, so security reports are taken seri
 
 **Please do not open a public issue or pull request for security problems.**
 
-Report privately using GitHub's **"Report a vulnerability"** (private security advisory) on this repository, or contact the maintainer **@RatioJuris** privately on GitHub with the subject `Photos security`.
+Report privately using GitHub's **"Report a vulnerability"** (private security advisory) on this repository, or e-mail **open-society@prajnabytes.com** with the subject `Photos security`.
 
 Please include:
 - the affected version and Android version/device;

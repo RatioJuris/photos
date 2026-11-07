@@ -130,7 +130,10 @@ adb install -r app/build/outputs/apk/standard/release/app-standard-release.apk
 Release signing uses a local, git-ignored `keystore.properties` (`storeFile`, `storePassword`,
 `keyAlias`, `keyPassword`); without it, release builds are signed with the debug key for personal use.
 
+Website: <https://ratiojuris.github.io/photos/> · [Privacy policy](https://ratiojuris.github.io/photos/privacy.html) · Contact: open-society@prajnabytes.com
+
 See also [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md) and [SECURITY.md](SECURITY.md).
+
 ## License
 
 Photos © 2026 RatioJuris. Owned by **PrajnaBytes International Private Limited**.
