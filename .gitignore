@@ -17,3 +17,6 @@ keystore.properties
 
 # Project documents are kept locally, not published
 /docs/
+
+# Release signing keys (never commit)
+/keys/
