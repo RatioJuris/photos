@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<resources>
+    <string name="app_name">Photos</string>
+    <string name="open_with_label">Photos</string>
+
+    <!-- Navigation -->
+    <string name="tab_albums">Albums</string>
+    <string name="tab_protected">Protected</string>
+    <string name="tab_settings">Settings</string>
+    <string name="back">Back</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="more">More</string>
+    <string name="info">Info</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="lock">Lock</string>
+    <string name="unlock">Unlock</string>
+    <string name="manage">Manage</string>
+    <string name="share_title">Share with</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+
+    <!-- Welcome & permissions -->
+    <string name="welcome_title">Welcome to Photos</string>
+    <string name="welcome_point_gallery">Browse every photo and album on your device</string>
+    <string name="welcome_point_protect">Lock individual photos with a password</string>
+    <string name="welcome_point_private">Everything stays on this device. No account, no cloud.</string>
+    <string name="allow_access">Allow access to photos</string>
+    <string name="not_now">Not now</string>
+    <string name="open_settings">Open settings</string>
+    <string name="permission_title">See your photos here</string>
+    <string name="permission_body">Allow Photos to read the pictures on this device. Your protected photos are available either way.</string>
+    <string name="permission_denied_body">Photo access is turned off. You can turn it on in Settings › Permissions › Photos and videos.</string>
+    <string name="partial_access_banner">Photos can only see the pictures you selected.</string>
+
+    <!-- Gallery -->
+    <string name="search">Search</string>
+    <string name="search_hint">Search names, albums, months</string>
+    <string name="sort">Sort</string>
+    <string name="sort_newest">Newest First</string>
+    <string name="sort_oldest">Oldest First</string>
+    <string name="sort_name">Name</string>
+    <string name="sort_size">Largest First</string>
+    <string name="filter_all">All Items</string>
+    <string name="no_results_title">No matches</string>
+    <string name="no_results_body">Nothing matches “%1$s”. Try a file name, an album or a month such as “March 2025”.</string>
+    <string name="no_photos_title">No photos yet</string>
+    <string name="no_photos_body">Photos you take or save on this device will appear here.</string>
+    <string name="no_albums_body">Folders containing photos will appear here.</string>
+    <string name="album_gone_title">Album not available</string>
+    <string name="album_gone_body">This album is empty or no longer exists.</string>
+    <string name="no_protected_title">No protected photos</string>
+    <string name="no_protected_body">Select photos, then tap the lock to protect them with a password.</string>
+    <string name="protected_intro_title">Locked with your password</string>
+    <string name="protected_intro_body">Stored as ordinary pictures in Pictures/Photos. Other apps can only ever see the preview.</string>
+    <string name="import_protected">Open Protected File…</string>
+    <string name="imported_message">Protected photo added</string>
+    <string name="error_import_failed">That file is not a protected photo or is damaged.</string>
+
+    <!-- Protect -->
+    <string name="action_protect">Protect</string>
+    <string name="protect_body">Choose a password. You will need it every time you want to see the original.</string>
+    <string name="password">Password</string>
+    <string name="password_confirm">Confirm password</string>
+    <string name="password_current">Current password</string>
+    <string name="password_new">New password</string>
+    <string name="password_min">At least %1$d characters</string>
+    <string name="password_mismatch">Passwords don\'t match</string>
+    <string name="password_loss_warning">There is no way to recover a forgotten password. If you lose it, the original photo is lost permanently.</string>
+    <string name="strength_too_short">Too short</string>
+    <string name="strength_fair">Fair. A longer password is better</string>
+    <string name="strength_good">Good</string>
+    <string name="strength_strong">Strong</string>
+    <string name="thumbnail_policy">Preview</string>
+    <string name="policy_standard">Standard preview</string>
+    <string name="policy_standard_hint">A small, clear preview anyone can see</string>
+    <string name="policy_reduced">Blurred preview</string>
+    <string name="policy_reduced_hint">Shows colours and shapes, not details</string>
+    <string name="policy_neutral">Neutral artwork</string>
+    <string name="policy_neutral_hint">Plain artwork that reveals nothing</string>
+    <string name="policy_none">No preview</string>
+    <string name="policy_none_hint">Stores no preview; other apps see plain artwork</string>
+    <string name="remove_originals">Remove originals</string>
+    <string name="remove_originals_hint">Only after each protected copy is checked. You will be asked to confirm.</string>
+    <string name="protecting_title">Protecting</string>
+    <string name="protecting_progress">Photo %1$d of %2$d</string>
+    <string name="protecting_hint">Each photo is encrypted, then reopened and checked before anything else happens.</string>
+    <string name="protect_partial">%1$d protected, %2$d failed</string>
+    <string name="protect_failures_intro">These photos were not changed:</string>
+    <string name="originals_kept">Your original photos were kept.</string>
+    <string name="remove_originals_action">Remove originals</string>
+    <string name="keep_originals">Keep</string>
+    <string name="reason_too_large">too large</string>
+    <string name="reason_empty">file is empty</string>
+    <string name="reason_unreadable">could not be read</string>
+    <string name="reason_format">image format not supported</string>
+    <string name="reason_storage">could not be saved</string>
+    <string name="reason_unknown">unexpected error</string>
+
+    <!-- Viewer -->
+    <string name="cd_original_unlocked">Unlocked original photo</string>
+    <string name="prompt_continue">Continue Securely</string>
+    <string name="unlock_title">Continue Securely</string>
+    <string name="verifying">Checking password…</string>
+    <string name="error_wrong_password">Incorrect password. The photo is still protected.</string>
+    <string name="error_corrupted">This protected photo is damaged or was modified, so it can\'t be opened.</string>
+    <string name="error_damaged">This file is damaged or is not a valid protected photo.</string>
+    <string name="error_unsupported_version">This protected photo was made by a newer version of Photos.</string>
+    <string name="error_too_large">This photo is too large to open on this device.</string>
+    <string name="error_open_failed">The photo could not be opened.</string>
+    <string name="error_cannot_display">This image can\'t be displayed.</string>
+    <string name="error_share_failed">Couldn\'t share this photo.</string>
+    <string name="error_no_thumbnail">This protected photo has no preview to share.</string>
+    <string name="error_delete_failed">Couldn\'t delete this photo.</string>
+    <string name="error_restore_failed">Couldn\'t save the copy.</string>
+    <string name="error_change_password">Couldn\'t change the password. The photo is unchanged.</string>
+    <string name="delete_cancelled">Nothing was deleted</string>
+    <string name="share_original">Share Original…</string>
+    <string name="share_file">Share File</string>
+    <string name="archive">Archive</string>
+    <string name="archive_action">Archive</string>
+    <string name="unarchive">Unarchive</string>
+    <string name="archived_message">Moved to Archive</string>
+    <string name="unarchived_message">Back in your Library</string>
+    <string name="archive_empty_title">Nothing archived</string>
+    <string name="archive_empty_body">Archive photos you want to keep but not see in your Library. Long-press a photo and choose Archive.</string>
+    <string name="settings_show_archived">Show Archived Items</string>
+    <string name="settings_show_archived_hint">Archived photos stay on your device and in Albums › Archive. Turn this on to also see them in your Library.</string>
+    <string name="bin">Bin</string>
+    <string name="move_to_bin">Move to Bin</string>
+    <string name="bin_empty_title">Bin is empty</string>
+    <string name="bin_footer">Items are kept for up to 30 days, then removed for good by Android.</string>
+    <string name="bin_unsupported">The Bin needs Android 11 or later. On this device, deleted items are removed immediately.</string>
+    <string name="bin_delete_message">These items will be deleted immediately. This can\'t be undone.</string>
+    <string name="recover">Recover</string>
+    <string name="recover_all">Recover All</string>
+    <string name="delete_all">Delete All</string>
+    <string name="select_all_short">Select All</string>
+    <string name="settings_use_bin">Use Bin</string>
+    <string name="settings_use_bin_hint">Deleted photos and videos go to the Bin first, so you can recover them for up to 30 days.</string>
+    <string name="unavailable">Unavailable</string>
+    <string name="places">Places</string>
+    <string name="no_places_title">No places yet</string>
+    <string name="no_places_body">Photos with location information appear here. Location is read on your device only.</string>
+    <string name="location">Location</string>
+    <string name="no_location">This photo has no location.</string>
+    <string name="location_permission_needed">Allow access to photo locations to see where this was taken.</string>
+    <string name="coordinates">Coordinates</string>
+    <string name="open_in_maps">Open in Maps</string>
+    <string name="show_map">Show Map</string>
+    <string name="maps_off_hint">Maps are off. Turning them on downloads map images from OpenStreetMap.</string>
+    <string name="maps_consent_title">Show Maps?</string>
+    <string name="maps_consent_body">Map images are downloaded from OpenStreetMap. Their servers will see which area you are viewing, but not your photos. You can turn this off in Settings.</string>
+    <string name="maps_enable">Turn On Maps</string>
+    <string name="osm_attribution">© OpenStreetMap contributors</string>
+    <string name="zoom_in">Zoom in</string>
+    <string name="zoom_out">Zoom out</string>
+    <string name="settings_location_maps">Location &amp; Maps</string>
+    <string name="settings_show_location">Show Photo Locations</string>
+    <string name="settings_maps">Maps</string>
+    <string name="settings_clear_map_cache">Clear Map Cache</string>
+    <string name="settings_maps_hint">Locations are read on this device only. Maps download map images from OpenStreetMap; their servers learn the area you view.</string>
+
+    <string name="filter_photos">Photos</string>
+    <string name="filter_videos">Videos</string>
+    <string name="collection_videos">Videos</string>
+    <string name="cd_video_date">Video, %1$s, %2$s</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="info_duration">Duration</string>
+    <string name="videos_not_protected">Videos are not protected. Only photos can be locked.</string>
+    <string name="share_preview_image">Share Preview Image</string>
+    <string name="cd_photo_date">Photo, %1$s</string>
+    <string name="cd_photo_generic">Photo</string>
+    <string name="share_original_title">Share the unprotected original?</string>
+    <string name="share_original_body">The recipient will get the original photo without protection. A temporary copy is removed automatically after a short time.</string>
+    <string name="share_original_confirm">Share original</string>
+    <string name="save_to_photos">Save</string>
+    <string name="save_unprotected_copy">Save Unprotected Copy</string>
+    <string name="restore_title">Save an unprotected copy?</string>
+    <string name="restore_body">A normal copy of the original will be saved to Pictures/Photos Restored, where other apps can see it. The protected file stays as it is.</string>
+    <string name="restore_confirm">Save copy</string>
+    <string name="restored_message">Unprotected copy saved to Pictures/Photos Restored</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_password_action">Change</string>
+    <string name="change_password_hint">The photo is re-encrypted with the new password and checked before the old file is removed.</string>
+    <string name="password_changed">Password changed</string>
+
+    <!-- Info -->
+    <string name="info_title">Details</string>
+    <string name="info_name">Name</string>
+    <string name="info_file">File</string>
+    <string name="info_date">Taken</string>
+    <string name="info_resolution">Resolution</string>
+    <string name="info_size">Size</string>
+    <string name="info_type">Type</string>
+    <string name="info_location">Folder</string>
+    <string name="info_camera">Camera</string>
+    <string name="info_aperture">Aperture</string>
+    <string name="info_exposure">Exposure</string>
+    <string name="info_iso">ISO</string>
+    <string name="info_focal">Focal length</string>
+    <string name="info_protected_on">Protected</string>
+    <string name="info_preview">Preview</string>
+    <string name="info_original_section">Original</string>
+    <string name="info_security_section">Technical details</string>
+    <string name="info_encryption">Encryption</string>
+    <string name="info_key_derivation">Password key</string>
+    <string name="info_format">Format</string>
+
+    <!-- Delete -->
+    <string name="delete_body">This can\'t be undone.</string>
+    <string name="delete_body_protected">Protected photos are deleted permanently. Ordinary photos may need your confirmation in the next step.</string>
+
+    <!-- Open with -->
+    <string name="open_unsupported_title">Can\'t open this file</string>
+    <string name="open_unsupported_body">Photos can open pictures and protected photos (.phtx). This file is neither.</string>
+    <string name="open_unreadable">The file could not be read. It may have been moved, or the app that shared it no longer allows access.</string>
+
+    <!-- Settings -->
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_system">Follow system</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_grid_density">Photo size</string>
+    <string name="density_compact">Small · 7 per row</string>
+    <string name="density_comfortable">Medium · 5 per row</string>
+    <string name="density_large">Large · 3 per row</string>
+    <string name="settings_sort">Sort photos</string>
+    <string name="settings_group_by_date">Group by day</string>
+    <string name="settings_group_by_date_hint">Show date headings when sorted by date</string>
+    <string name="settings_protection">Protection</string>
+    <string name="settings_thumbnail_policy_short">Preview Style</string>
+    <string name="settings_show_protected_thumbs">Show previews in the gallery</string>
+    <string name="settings_show_protected_thumbs_hint">When off, protected photos appear as plain artwork</string>
+    <string name="settings_confirm_password">Type password twice</string>
+    <string name="settings_confirm_password_hint">When protecting photos or changing a password</string>
+    <string name="settings_remove_originals">Remove originals by default</string>
+    <string name="settings_remove_originals_hint">Offer to delete originals after they are safely protected</string>
+    <string name="settings_secure_viewing">Secure viewing</string>
+    <string name="settings_secure_screen">Block screenshots of originals</string>
+    <string name="settings_secure_screen_hint">Also hides unlocked photos in recent apps</string>
+    <string name="settings_relock">Lock when leaving the app</string>
+    <string name="settings_relock_hint">Unlocked originals are cleared from memory when Photos goes to the background</string>
+    <string name="settings_about">About</string>
+    <string name="settings_privacy">Privacy</string>
+    <string name="settings_how_protection_works">How protection works</string>
+    <string name="settings_source">Source code</string>
+    <string name="settings_version">Version</string>
+    <string name="privacy_text">Photos works on this device. It has no account, no server, no analytics and no advertising.\n\nThe only internet use is map images, and only if you turn on Maps. Map images come from OpenStreetMap, whose servers then learn which area you are viewing (not which photo). Photo locations themselves are read and indexed on the device only.\n\nPhoto access is used only to show your pictures. Passwords are never stored: they are used to unlock a photo and then discarded.\n\nWhen you share an unlocked original, a temporary copy is created only for that share and deleted automatically.</string>
+    <string name="how_text">Each protected photo is a single file that every app can open as a normal picture, but all they see is its preview (or plain artwork, depending on your choice). Hidden after the picture is the original photo, encrypted with AES-256-GCM.\n\nTo view the original, open the photo in Photos, tap ••• and choose Continue Securely. A wrong password simply leaves the preview on screen.\n\nShare protected photos as files. Apps that recompress pictures (for example some chat apps when sending as a photo) keep only the preview.\n\nThe encryption key is derived from your password with Argon2id (%1$d MiB of memory, %2$d passes), which makes guessing passwords slow. Every file has its own random salt and keys.\n\nAny change to the file, including its preview, is detected when it is unlocked. Without the password, the original cannot be recovered. Not by Photos, and not by anyone else.\n\nThe format is documented publicly so other apps can support it.</string>
+    <string name="license_text">Photos © 2026 RatioJuris.\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.\n\nSource: https://github.com/ratiojuris/photos\n\nThird-party components: AndroidX and Jetpack Compose (Apache-2.0), Coil (Apache-2.0), Kotlin coroutines (Apache-2.0), Bouncy Castle (MIT-style Bouncy Castle Licence).</string>
+
+    <plurals name="selected_count">
+        <item quantity="one">%1$d selected</item>
+        <item quantity="other">%1$d selected</item>
+    </plurals>
+    <plurals name="protect_title">
+        <item quantity="one">Protect photo</item>
+        <item quantity="other">Protect %1$d photos</item>
+    </plurals>
+    <plurals name="protect_done">
+        <item quantity="one">Photo protected</item>
+        <item quantity="other">%1$d photos protected</item>
+    </plurals>
+    <plurals name="remove_originals_prompt">
+        <item quantity="one">The protected copy was checked. Remove the unprotected original from your device now?</item>
+        <item quantity="other">All %1$d protected copies were checked. Remove the unprotected originals from your device now?</item>
+    </plurals>
+    <!-- iOS-style navigation and labels -->
+    <string name="library">Library</string>
+    <string name="years">Years</string>
+    <string name="months">Months</string>
+    <string name="all_photos">All Photos</string>
+    <string name="select">Select</string>
+    <string name="deselect">Deselect</string>
+    <string name="select_items">Select Items</string>
+    <string name="filter_title">Filter</string>
+    <string name="allow">Allow</string>
+    <string name="my_albums">My Albums</string>
+    <string name="see_all">See All</string>
+    <string name="media_types">Media Types</string>
+    <string name="utilities">Utilities</string>
+    <string name="import_short">Open</string>
+    <string name="continue_label">Continue</string>
+    <string name="collection_screenshots">Screenshots</string>
+    <string name="collection_animated">Animated</string>
+    <string name="collection_raw">RAW</string>
+    <string name="welcome_point_gallery_title">Your Library</string>
+    <string name="welcome_point_protect_title">Protected Photos</string>
+    <string name="welcome_point_private_title">Private by Design</string>
+    <string name="strength_label">Strength</string>
+    <string name="reencrypting">Re-encrypting and checking…</string>
+    <string name="status_original_unlocked_tap">Original · Tap to Lock</string>
+    <string name="action_protect_ellipsis">Protect…</string>
+    <string name="settings_license">License</string>
+    <string name="settings_developer_footer">Photos is developed by RatioJuris and released under the GNU GPL v3 or later.</string>
+    <string name="settings_density_footer">You can also pinch the photo grid to change the size.</string>
+    <string name="settings_policy_footer">Used for photos you protect from now on. Existing protected photos keep their preview.</string>
+    <plurals name="days_left">
+        <item quantity="one">%1$d day</item>
+        <item quantity="other">%1$d days</item>
+    </plurals>
+    <plurals name="places_count">
+        <item quantity="one">%1$d photo with a location</item>
+        <item quantity="other">%1$d photos with a location</item>
+    </plurals>
+    <plurals name="item_count">
+        <item quantity="one">%1$d Item</item>
+        <item quantity="other">%1$d Items</item>
+    </plurals>
+    <plurals name="delete_action">
+        <item quantity="one">Delete Item</item>
+        <item quantity="other">Delete %1$d Items</item>
+    </plurals>
+</resources>

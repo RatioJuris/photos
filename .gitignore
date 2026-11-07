@@ -1,0 +1,19 @@
+*.iml
+.gradle/
+/local.properties
+.idea/
+.DS_Store
+build/
+/captures
+.externalNativeBuild
+.cxx
+.kotlin/
+*.apk
+!/docs/**/*.apk
+/test-artifacts/
+keystore.properties
+*.jks
+*.keystore
+
+# Project documents are kept locally, not published
+/docs/
